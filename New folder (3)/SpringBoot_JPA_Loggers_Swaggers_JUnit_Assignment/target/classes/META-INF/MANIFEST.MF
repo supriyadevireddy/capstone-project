@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Built-By: DELL  PC
+Build-Jdk: 18.0.1.1
+Implementation-Title: SpringBoot_JPA_Loggers_Swaggers_JUnit_Assignment
+Implementation-Version: 0.0.1-SNAPSHOT
+Implementation-Vendor-Id: odin_fs4_projects
+Implementation-Vendor: Pivotal Software, Inc.
+Implementation-URL: http://projects.spring.io/spring-boot/SpringBoot_JPA
+ _Loggers_Swaggers_JUnit_Assignment/
+Created-By: Maven Integration for Eclipse
+

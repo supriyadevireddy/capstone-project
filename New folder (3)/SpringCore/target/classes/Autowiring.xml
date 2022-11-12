@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans 
+       http://www.springframework.org/schema/beans/spring-beans-2.5.xsd">
+       
+       
+       <bean class = "com.autowiring.Address"  id = " adress">
+
+</bean>
+
+
+<bean class = "com.autowiring.Icici"  id = " atm ">
+
+</bean>
+
+<bean class = "com.autowiring.Sbi"  id = "sbi ">
+
+</bean>
+
+
+
+   <bean class  = " com.autowiring.Employee"    id="emp"  autowire = "byName"> 
+    
+    </bean> 
+    
+      <!-- <bean class  = " com.autowiring.Employee"    id="emp2"  autowire = "byType">
+    
+    
+    </bean>
+   
+      <bean class  = " com.autowiring.Employee"    id="emp3"  autowire = "constructor">
+    
+    </bean>
+      -->
+       
+       
+       
+</beans>

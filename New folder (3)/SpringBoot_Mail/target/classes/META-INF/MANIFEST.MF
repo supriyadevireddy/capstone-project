@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Built-By: DELL  PC
+Build-Jdk: 18.0.1.1
+Implementation-Title: SpringBoot_Mail
+Implementation-Version: 0.0.1-SNAPSHOT
+Implementation-Vendor-Id: Odin_Fs4_SpringBoot
+Implementation-Vendor: Pivotal Software, Inc.
+Implementation-URL: http://projects.spring.io/spring-boot/SpringBoot_Mai
+ l/
+Created-By: Maven Integration for Eclipse
+

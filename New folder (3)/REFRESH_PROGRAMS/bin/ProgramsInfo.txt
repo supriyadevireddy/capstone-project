@@ -1,0 +1,136 @@
+1) --> Write a java program to develop calculator functionalities
+
+  addition
+  subtraction
+  multiplication
+  division
+  
+  program should have 1 main method to call all the other methods 
+  and 1 method each for each of 4 functionalities 
+  
+  
+  
+2) --> Write java programs to explain polymorphism
+
+   --> class Employee 
+         Properties : int id, String name,int salary,double experience
+           
+           overloaded methods :
+             --> generateBonus(int salary)   (BasedOnSalary) 
+              (if salary > 9000 then generate 20% of salary as bonus else generate 10% of salary as bonus)
+             --> generateBonus(double exp)   (BasedOnExperience)
+              (if experience > 5 then generate 20% of salary as bonus else generate 10% of salary as bonus)
+              
+              
+           overridden methods :
+              Create class TeamPlayer which extends Employee
+                     properties : String role, boolean isOnBench
+                     
+                     override generateBonus(double exp)  BasedOnExperience in TeamPlayer class 
+                       (if experience > 5 and not on bench then generate 30% of salary as bonus)
+                       (if experience > 5 and on bench then generate 10% of salary as bonus)
+                       (if experience < 5 and not on bench then generate 30% of salary as bonus)
+                       (if experience < 5 and on bench then generate 10% of salary as bonus) 
+                     
+                     
+3) --> Write a java program to explain interface and its implementation
+
+Create an interface with name IUser for gathering below requirements
+     req 1 : register as a new user 
+	   input : User object and index position
+	   output : void
+	   
+     req 2 : login as a user 
+   	    input : username, password
+	    output : boolean 
+
+    Create an implementation class which implements IUser interface
+      class should have a property of User[] with size of 5
+       
+          while implementing registerUser method if index position is out of bounds (either < 0 or > 4) then throw IndexIncorrectException (user defined exception)
+          
+          while registering store every object  in the given index position
+          
+          while login iterate through all the objects in array and find out any matching user present or not 
+  
+                     
+4)  --> Write java program to generate fibonacci series of given limit
+  
+   
+5)   --> Write java program to display data as follows using nested loops 
+   
+    1 
+    2 3
+    4 5 6
+    7 8 9 10                  
+   
+   
+ 6)  --> Write a java program to find out maximum and minimum values in given array 
+   
+   
+ 7)  --> Write a java program to find out 2nd highest value in array using java8 streams 
+   with and without using java8 
+   
+ 8)  --> Write a java program to find out no of occurrences of every character in a given name using java8 streams 
+   
+   java
+   
+   j - 1
+   a - 2
+   v - 1
+   
+ 9) Given 2 programs
+		1: contains Employee pojo
+		2: contains Dept pojo
+	These pojos have name and id with parameterised constuctor and getter/setter
+	Note:
+		for this test, create above pojos yourself and use.
+		Assumption:
+			We have 5 employees and 3 dept as follow
+			e1,e2,e3,e4,e5 employees
+			d1,d2,d3 departments
+
+	To do:
+	write program to map emp with dept such that no duplicate employees allowed and should be sorted based on empId  
+   
+   
+10) Swap 2 numbers with using third variable and without using third variable
+
+11) Write a java program to iterate on ArrayList using for loop, while loop and forEach loop
+
+12) Write a java program to find out whether given input number is prime or not 
+
+13) Write a java program to replace all white spaces in a given sentence
+ through with using and without using predefined functions of strings
+ 
+ 
+-----------------------------------------------
+ 
+14) Write a java program to find out factorial of a given number 
+
+15) Write a java program to remove duplicates from given array with and without using java 8
+ Note : use .distinct method
+ java7 -- add all values to LinkedHashSet
+ 
+16) Write java program to find out whether input strings are anagrams or not 
+
+
+
+17) Write a java program to read content from a file and remove all white spaces and the result write to another file
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   

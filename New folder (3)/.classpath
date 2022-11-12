@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="Overriding/operators/oops concepts/src"/>
+	<classpathentry kind="src" path="Overriding/operators/src"/>
+	<classpathentry kind="src" path="Overriding/src"/>
+	<classpathentry kind="src" path="palendromedemo/src"/>
+	<classpathentry kind="src" path="Patternsuperclass_1/src"/>
+	<classpathentry kind="src" path="REFRESH_PROGRAMS/src"/>
+	<classpathentry kind="src" path="Relationaloperators/src"/>
+	<classpathentry kind="src" path="sampledemo/src"/>
+	<classpathentry kind="src" path="SCPAndHeap/src"/>
+	<classpathentry kind="src" path="splitmethod/src"/>
+	<classpathentry kind="src" path="SpringBoot_JPA_Loggers_Swaggers_JUnit_Assignment/src/main/java"/>
+	<classpathentry kind="src" path="SpringBoot_JPA_Loggers_Swaggers_JUnit_Assignment/src/test/java"/>
+	<classpathentry kind="src" path="SpringBoot_JPA/src/main/java"/>
+	<classpathentry kind="src" path="SpringBoot_Mail/src/main/java"/>
+	<classpathentry kind="src" path="SpringBoot_Rest/src/main/java"/>
+	<classpathentry excluding="com/" kind="src" path="SpringBoot_Sender_Jms/src/main/java"/>
+	<classpathentry kind="src" path="SpringBoot_Sender_Jms/src/main/java/com"/>
+	<classpathentry kind="src" path="SpringBootAssignment/src/main/java"/>
+	<classpathentry kind="src" path="SpringBootReciever_jms/src/main/java"/>
+	<classpathentry kind="src" path="SpringCore/src/main/java"/>
+	<classpathentry kind="src" path="SpringCoreAndJdbc/src/main/java"/>
+	<classpathentry kind="src" path="SpringJdbc/src/main/java"/>
+	<classpathentry kind="src" path="SpringJmsPublisher/src/main/java"/>
+	<classpathentry kind="src" path="SpringJmsReceiver/src/main/java"/>
+	<classpathentry kind="src" path="SpringJmsSender/src/main/java"/>
+	<classpathentry kind="src" path="SpringJmsSubscriber1/src/main/java"/>
+	<classpathentry kind="src" path="SpringRestWebServices/src/main/java"/>
+	<classpathentry kind="src" path="SprpingJmsSubscriber2/src/main/java"/>
+	<classpathentry kind="src" path="StringCourses/src"/>
+	<classpathentry kind="src" path="Strings/src"/>
+	<classpathentry kind="src" path="Substraction/src"/>
+	<classpathentry kind="src" path="subtraction method/src"/>
+	<classpathentry kind="src" path="SubtractionMethod/src"/>
+	<classpathentry kind="src" path="Unaryoperators/src"/>
+	<classpathentry kind="src" path="Week_3Assignment/src"/>
+	<classpathentry kind="src" path="Week8_Assignment/src/main/java"/>
+	<classpathentry kind="output" path="Overriding/bin"/>
+</classpath>

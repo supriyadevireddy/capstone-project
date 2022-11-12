@@ -1,0 +1,82 @@
+2022-09-13 15:49:04 [main] INFO  com.app.service.test.BikeSrvImplTest -
+				Starting BikeSrvImplTest on dell with PID 25292 (started by DELL  PC in C:\Users\DELL  PC\eclipse-workspace\SpringBoot_JPA_Loggers_Swagger_JUnit_Assignment)
+2022-09-13 15:49:04 [main] DEBUG com.app.service.test.BikeSrvImplTest -
+				Running with Spring Boot v1.5.9.RELEASE, Spring v4.3.13.RELEASE
+2022-09-13 15:49:04 [main] INFO  com.app.service.test.BikeSrvImplTest -
+				No active profile set, falling back to default profiles: default
+2022-09-13 15:54:52 [main] INFO  com.app.service.test.BikeSrvImplTest -
+				Starting BikeSrvImplTest on dell with PID 24852 (started by DELL  PC in C:\Users\DELL  PC\eclipse-workspace\SpringBoot_JPA_Loggers_Swagger_JUnit_Assignment)
+2022-09-13 15:54:52 [main] DEBUG com.app.service.test.BikeSrvImplTest -
+				Running with Spring Boot v1.5.9.RELEASE, Spring v4.3.13.RELEASE
+2022-09-13 15:54:52 [main] INFO  com.app.service.test.BikeSrvImplTest -
+				No active profile set, falling back to default profiles: default
+2022-09-13 15:54:52 [main] INFO  com.app.service.test.BikeSrvImplTest -
+				Starting BikeSrvImplTest on dell with PID 24560 (started by DELL  PC in C:\Users\DELL  PC\eclipse-workspace\SpringBoot_JPA_Loggers_Swagger_JUnit_Assignment)
+2022-09-13 15:54:52 [main] DEBUG com.app.service.test.BikeSrvImplTest -
+				Running with Spring Boot v1.5.9.RELEASE, Spring v4.3.13.RELEASE
+2022-09-13 15:54:52 [main] INFO  com.app.service.test.BikeSrvImplTest -
+				No active profile set, falling back to default profiles: default
+2022-09-13 15:57:15 [main] INFO  com.app.service.test.BikeSrvImplTest -
+				Starting BikeSrvImplTest on dell with PID 24632 (started by DELL  PC in C:\Users\DELL  PC\eclipse-workspace\SpringBoot_JPA_Loggers_Swagger_JUnit_Assignment)
+2022-09-13 15:57:15 [main] DEBUG com.app.service.test.BikeSrvImplTest -
+				Running with Spring Boot v1.5.9.RELEASE, Spring v4.3.13.RELEASE
+2022-09-13 15:57:15 [main] INFO  com.app.service.test.BikeSrvImplTest -
+				No active profile set, falling back to default profiles: default
+2022-09-13 15:58:20 [main] INFO  com.app.service.test.BikeSrvImplTest -
+				Starting BikeSrvImplTest on dell with PID 24884 (started by DELL  PC in C:\Users\DELL  PC\eclipse-workspace\SpringBoot_JPA_Loggers_Swagger_JUnit_Assignment)
+2022-09-13 15:58:20 [main] DEBUG com.app.service.test.BikeSrvImplTest -
+				Running with Spring Boot v1.5.9.RELEASE, Spring v4.3.13.RELEASE
+2022-09-13 15:58:20 [main] INFO  com.app.service.test.BikeSrvImplTest -
+				No active profile set, falling back to default profiles: default
+2022-09-13 16:37:34 [main] INFO  com.app.service.test.BikeSrvImplTest -
+				Starting BikeSrvImplTest on dell with PID 22856 (started by DELL  PC in C:\Users\DELL  PC\eclipse-workspace\SpringBoot_JPA_Loggers_Swagger_JUnit_Assignment)
+2022-09-13 16:37:34 [main] DEBUG com.app.service.test.BikeSrvImplTest -
+				Running with Spring Boot v1.5.9.RELEASE, Spring v4.3.13.RELEASE
+2022-09-13 16:37:34 [main] INFO  com.app.service.test.BikeSrvImplTest -
+				No active profile set, falling back to default profiles: default
+2022-09-13 16:38:41 [main] DEBUG com.app.AppStarter -
+				Appstarter application started ....
+2022-09-13 16:38:49 [main] DEBUG com.app.AppStarter -
+				Appstarter application started ....
+2022-09-13 16:39:08 [main] DEBUG com.app.AppStarter -
+				Appstarter application started ....
+2022-09-13 16:40:48 [main] INFO  com.app.service.test.BikeSrvImplTest -
+				Starting BikeSrvImplTest on dell with PID 4220 (started by DELL  PC in C:\Users\DELL  PC\eclipse-workspace\SpringBoot_JPA_Loggers_Swagger_JUnit_Assignment)
+2022-09-13 16:40:48 [main] DEBUG com.app.service.test.BikeSrvImplTest -
+				Running with Spring Boot v1.5.9.RELEASE, Spring v4.3.13.RELEASE
+2022-09-13 16:40:48 [main] INFO  com.app.service.test.BikeSrvImplTest -
+				No active profile set, falling back to default profiles: default
+2022-09-13 16:41:45 [main] DEBUG com.app.AppStarter -
+				Appstarter application started ....
+2022-09-13 16:42:44 [main] DEBUG com.app.AppStarter -
+				Appstarter application started ....
+2022-09-13 16:43:11 [main] DEBUG com.app.AppStarter -
+				Appstarter application started ....
+2022-09-13 16:44:38 [main] DEBUG com.app.AppStarter -
+				Appstarter application started ....
+2022-09-13 16:45:26 [main] DEBUG com.app.AppStarter -
+				Appstarter application started ....
+2022-09-13 16:45:43 [main] DEBUG com.app.AppStarter -
+				Appstarter application started ....
+2022-09-13 16:46:39 [main] DEBUG com.app.AppStarter -
+				Appstarter application started ....
+2022-09-13 16:46:56 [main] DEBUG com.app.AppStarter -
+				Appstarter application started ....
+2022-09-13 16:47:11 [main] DEBUG com.app.AppStarter -
+				Appstarter application started ....
+2022-09-13 16:48:09 [main] INFO  com.app.service.test.BikeSrvImplTest -
+				Starting BikeSrvImplTest on dell with PID 25564 (started by DELL  PC in C:\Users\DELL  PC\eclipse-workspace\SpringBoot_JPA_Loggers_Swagger_JUnit_Assignment)
+2022-09-13 16:48:09 [main] DEBUG com.app.service.test.BikeSrvImplTest -
+				Running with Spring Boot v1.5.9.RELEASE, Spring v4.3.13.RELEASE
+2022-09-13 16:48:09 [main] INFO  com.app.service.test.BikeSrvImplTest -
+				No active profile set, falling back to default profiles: default
+2022-09-13 16:48:52 [main] INFO  com.app.service.test.BikeSrvImplTest -
+				Starting BikeSrvImplTest on dell with PID 24552 (started by DELL  PC in C:\Users\DELL  PC\eclipse-workspace\SpringBoot_JPA_Loggers_Swagger_JUnit_Assignment)
+2022-09-13 16:48:52 [main] DEBUG com.app.service.test.BikeSrvImplTest -
+				Running with Spring Boot v1.5.9.RELEASE, Spring v4.3.13.RELEASE
+2022-09-13 16:48:52 [main] INFO  com.app.service.test.BikeSrvImplTest -
+				No active profile set, falling back to default profiles: default
+2022-09-13 17:06:27 [main] DEBUG com.app.AppStarter -
+				Appstarter application started ....
+2022-09-13 17:40:36 [main] DEBUG com.app.AppStarter -
+				Appstarter application started ....

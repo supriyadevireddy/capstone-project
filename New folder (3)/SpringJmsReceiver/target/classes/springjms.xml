@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:p="http://www.springframework.org/schema/p"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<!-- Creating the connection factory - for holding a pool of connection objects -->
+	<bean id="connectionFactory" class="org.apache.activemq.ActiveMQConnectionFactory"
+       p:brokerURL="tcp://localhost:61616" />
+	
+	<!--  Through which queue we are making the communication    -->
+	 <bean id="destinationQueue" class="org.apache.activemq.command.ActiveMQQueue">
+             <constructor-arg value="first_jms" />
+     </bean>
+     
+     <bean class="com.app.ReceiverDemo" id="receiverObj"></bean>
+     
+      <!-- Configure the destination  -->
+	<bean id="inboundMessageListenerAdapter" class="org.springframework.jms.listener.adapter.MessageListenerAdapter">
+		<constructor-arg ref="receiverObj" />
+		<property name="defaultListenerMethod" value="receiveData" />
+	</bean>
+	
+	<bean id="msgListenerContainer"
+      class="org.springframework.jms.listener.DefaultMessageListenerContainer"
+      p:connectionFactory-ref="connectionFactory"
+      p:destination-ref="destinationQueue"
+      p:messageListener-ref="inboundMessageListenerAdapter"></bean>
+     
+</beans>
