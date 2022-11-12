@@ -1,0 +1,11 @@
+Manifest-Version: 1.0
+Built-By: DELL  PC
+Build-Jdk: 18.0.1.1
+Implementation-Title: Mini-Capstone-Project
+Implementation-Version: 0.0.1-SNAPSHOT
+Implementation-Vendor-Id: GUIDED_PROJECT_CAR-SERVICE
+Implementation-Vendor: Pivotal Software, Inc.
+Implementation-URL: http://projects.spring.io/spring-boot/Mini-Capstone-
+ Project/
+Created-By: Maven Integration for Eclipse
+
