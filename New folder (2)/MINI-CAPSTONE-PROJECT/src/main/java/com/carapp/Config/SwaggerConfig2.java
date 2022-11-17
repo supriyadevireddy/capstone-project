@@ -35,7 +35,7 @@ public class SwaggerConfig2 {
 				.description("Sample Documentation Generated Using SWAGGER2 for our Car Rest API")
 				.termsOfServiceUrl("https://www.youtube.com/channel/UCORuRdpN2QTCKnsuEaeK-kQ")
 				.license("Java Swagger docs")
-				.licenseUrl("babutrain22@gmail.com").version("1.0").build();
+				.licenseUrl("saisupriyadevireddy046@gmail.com").version("1.0").build();
 	}
 
 }
