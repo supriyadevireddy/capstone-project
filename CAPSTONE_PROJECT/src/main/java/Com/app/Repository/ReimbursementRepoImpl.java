@@ -1,5 +1,6 @@
 package Com.app.Repository;
 
+
 import java.util.Date;
 import java.util.List;
 
@@ -22,8 +23,7 @@ public class ReimbursementRepoImpl implements IReimbursementRepo {
 		
 		String query = "insert into reimbursement_info (userId, reason, amount, status, raisedOn) values (?, ?, ?, ?, ?)";
 		
-		Object DateConversion;
-		int result = jdbcTemplate.update(query, new Object[] {rObj.getUserId(), rObj.getReason(), rObj.getAmount(), "PENDING", ( ( ((Object) DateConversion).convertDateFromUtilToSql(new Date())});
+		int result = jdbcTemplate.update(query, new Object[] {rObj.getUserId(), rObj.getReason(), rObj.getAmount(), "PENDING", DateConversion.convertDateFromUtilToSql(new Date())});
 		return result;
 	}
 

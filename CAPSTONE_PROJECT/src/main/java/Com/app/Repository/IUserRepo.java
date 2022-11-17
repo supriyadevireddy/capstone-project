@@ -13,4 +13,3 @@ public interface IUserRepo {
 	User getUser(String userName, String pwd);
 
 }
-

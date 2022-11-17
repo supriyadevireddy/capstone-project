@@ -34,5 +34,14 @@
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
+	<classpathentry kind="lib" path="C:/Users/DELL  PC/.m2/repository/io/springfox/springfox-core/2.4.0/springfox-core-2.4.0.jar" sourcepath="C:/Users/DELL  PC/.m2/repository/io/springfox/springfox-core/2.4.0/springfox-core-2.4.0-sources.jar">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+			<attribute name="maven.groupId" value="io.springfox"/>
+			<attribute name="maven.artifactId" value="springfox-core"/>
+			<attribute name="maven.version" value="2.4.0"/>
+			<attribute name="maven.scope" value="compile"/>
+		</attributes>
+	</classpathentry>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>

@@ -5,16 +5,13 @@ import java.sql.SQLException;
 
 import org.springframework.jdbc.core.RowMapper;
 
-import com.app.pojo.Reimbursement;
-import com.app.util.DateConversion;
+import Com.app.Pojo.Reimbursement;
 
-import ch.qos.logback.classic.pattern.DateConverter;
+public abstract class ReimbursementRowMapper implements RowMapper<Reimbursement> {
 
-public class ReimbursementRowMapper implements RowMapper<Com.app.Pojo.Reimbursement> {
+	public Reimbursement mapRow(ResultSet rs, int rowNum, Object DateConversion) throws SQLException {
 
-	public Com.app.Pojo.Reimbursement mapRow(ResultSet rs, int rowNum) throws SQLException {
-
-		Com.app.Pojo.Reimbursement rObj = new Com.app.Pojo.Reimbursement();
+		Reimbursement rObj = new Reimbursement();
 		
 		rObj.setReimbursementId(rs.getInt("reimbursementId"));
 		rObj.setUserId(rs.getInt("userId"));
@@ -22,8 +19,7 @@ public class ReimbursementRowMapper implements RowMapper<Com.app.Pojo.Reimbursem
 		rObj.setAmount(rs.getInt("amount"));
 		rObj.setStatus(rs.getString("status"));
 		if(rs.getDate("raisedOn")!=null) {
-			Object DateConversion;
-			rObj.setRaisedOn(((Object) DateConversion).convertDateFromSqlToUtil(rs.getDate(6)));
+			rObj.setRaised(DateConversion).convertDateFromSqlToUtil(rs.getDate(6)));
 		}
 	//	if(rs.getString("userName") != null) {
 			rObj.setUserName(rs.getString("userName"));

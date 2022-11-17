@@ -4,13 +4,11 @@ import java.sql.SQLException;
 
 import org.springframework.jdbc.core.RowMapper;
 
-import com.app.pojo.User;
+public class UserRowMapper implements RowMapper<Com.app.Pojo.User> {
 
-public class UserRowMapper implements RowMapper<User> {
+	public Com.app.Pojo.User mapRow(ResultSet rs, int arg1) throws SQLException {
 
-	public User mapRow(ResultSet rs, int arg1) throws SQLException {
-
-		User user = new User();
+		Com.app.Pojo.User user = new Com.app.Pojo.User();
 		user.setuId(rs.getInt(1));
 		user.setUserName(rs.getString(2));
 		user.setPwd(rs.getString(3));

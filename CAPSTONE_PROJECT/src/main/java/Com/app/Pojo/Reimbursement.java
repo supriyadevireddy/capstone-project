@@ -60,8 +60,8 @@ public class Reimbursement {
 	public Date getRaisedOn() {
 		return raisedOn;
 	}
-	public void setRaisedOn(Date raisedOn) {
-		this.raisedOn = raisedOn;
+	public void setRaisedOn(Object dateConversion) {
+		this.raisedOn = dateConversion;
 	}
 	public String getUserName() {
 		return userName;
@@ -74,6 +74,10 @@ public class Reimbursement {
 		return "Reimbursement [reimbursementId=" + reimbursementId + ", userId=" + userId + ", reason=" + reason
 				+ ", amount=" + amount + ", status=" + status + ", raisedOn=" + raisedOn + ", userName=" + userName
 				+ "]";
+	}
+	public Object setRaised(Object dateConversion) {
+		// TODO Auto-generated method stub
+		return null;
 	}
 	
 }
